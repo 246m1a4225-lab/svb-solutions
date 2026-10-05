@@ -75,7 +75,7 @@ npx vercel --prod
 1. Create a new repository on GitHub (e.g. `svb-solutions`).
 2. Push this repository:
    ```bash
-   git remote add origin https://github.com/musinivinayak1-web/svb-solutions.git
+   git remote add origin https://github.com/246m1a4225-lab/svb-solutions.git
    git branch -M main
    git push -u origin main
    ```
@@ -84,7 +84,7 @@ npx vercel --prod
    * Under **Branch**, select `main` and folder `/ (root)`
    * Click **Save**
 4. Your live website URL will be:
-   `https://musinivinayak1-web.github.io/svb-solutions/`
+   `https://246m1a4225-lab.github.io/svb-solutions/`
 
 ---
 
