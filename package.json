@@ -1,0 +1,17 @@
+{
+  "name": "svb-solutions",
+  "version": "1.0.0",
+  "description": "SVB Solutions - AI-Powered Automation for Small & Medium Businesses",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "ai",
+    "automation",
+    "smb"
+  ],
+  "author": "SVB Solutions",
+  "license": "ISC"
+}

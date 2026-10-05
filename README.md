@@ -41,7 +41,36 @@
 
 ---
 
-## 🌐 Deploying to GitHub Pages (1 Click)
+## 🌐 Deploying to Vercel
+
+### Option 1: Deploy via Vercel Web Dashboard (Recommended & Easiest)
+1. Push your repository to **GitHub** or **GitLab** / **Bitbucket**.
+2. Go to [vercel.com](https://vercel.com) and log in.
+3. Click **"Add New..."** > **"Project"**.
+4. Import your **`svb-solutions`** repository.
+5. Keep **Framework Preset** as *Other* (Root Directory `./`).
+6. Click **Deploy**. Your site will be live instantly with global CDN & SSL!
+
+### Option 2: Deploy via Vercel CLI
+Run the following in your terminal:
+```bash
+npx vercel
+```
+Follow the interactive prompts:
+* `Set up and deploy?` **y**
+* `Which scope?` Select your account
+* `Link to existing project?` **N**
+* `What's your project's name?` **svb-solutions**
+* `In which directory is your code located?` **./**
+
+To deploy directly to production:
+```bash
+npx vercel --prod
+```
+
+---
+
+## 🌐 Deploying to GitHub Pages (Alternative)
 
 1. Create a new repository on GitHub (e.g. `svb-solutions`).
 2. Push this repository:
